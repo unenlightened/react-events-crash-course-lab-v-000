@@ -14,7 +14,6 @@ export default class ChromeBoisDomain extends Component {
 
   handleKeyPress = (event) => {
     if(event.key == 'a') {resize(+)}
-    else if (event.key == 's') {resize(-)}
   }
 
   /* TODO: Add an event listener to the `<canvas>` element to capture when a key
